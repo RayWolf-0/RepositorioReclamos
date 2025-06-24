@@ -23,7 +23,7 @@ public class Reclamos {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID_RECLAMO")
-    private Long id_reclamo;
+    private int id_reclamo;
 
     @Column(name= "FECHA_RECLAMO", nullable = false)
     @JsonFormat(pattern = "dd-mm-yyyy")

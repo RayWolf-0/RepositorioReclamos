@@ -20,7 +20,7 @@ public class ReclamosService {
         return reclamosrepository.findAll();
     }
 
-    public Reclamos BuscarunReclamo(Long id_reclamo){
+    public Reclamos BuscarunReclamo(int id_reclamo){
         return reclamosrepository.findById(id_reclamo).get();
     }
 
